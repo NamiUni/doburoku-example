@@ -5,6 +5,6 @@ import org.jspecify.annotations.NullMarked;
 
 @NullMarked
 @FunctionalInterface
-public interface MessageSender {
+public interface PlayerMessage {
     void send(Player player);
 }

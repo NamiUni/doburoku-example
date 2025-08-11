@@ -22,7 +22,8 @@ repositories {
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.8-R0.1-SNAPSHOT")
     compileOnly("io.github.miniplaceholders:miniplaceholders-api:2.3.0")
-    implementation("io.github.namiuni:doburoku-reflect-minimessage:1.0.0-SNAPSHOT")
+    implementation("io.github.namiuni:doburoku-standard:1.0.0-SNAPSHOT")
+    annotationProcessor("io.github.namiuni:doburoku-annotation-processor:1.0.0-SNAPSHOT")
 }
 
 paperPluginYaml {
